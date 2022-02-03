@@ -7,7 +7,9 @@ To accomplish this I usually type something like `mkdir foo && touch foo/bar`, b
 
 ## Usage
 
-`touchd` solves this problem by combining `mkdir -p` and `touch` into a single command. From `touchd -help`:
+`touchd` solves this problem by combining `mkdir -p` and `touch` into a single command: `touchd foo/bar`.
+
+ From `touchd -help`:
 
 ```
 Usage: touchd [OPTION] FILE...
