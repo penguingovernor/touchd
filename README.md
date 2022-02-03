@@ -26,6 +26,6 @@ Options:
 
 Install with the `go install` tool.
 
-```
-$ go install github.com/penguingovernor/cmd/touchd
+```shell
+go install github.com/penguingovernor/touchd/cmd/touchd@latest
 ```
